@@ -216,7 +216,7 @@
                         <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">我的账户 <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="#" data-url="<?php echo $this->Url->build(['plugin' => $this->request->params['plugin'], 'controller' => 'Users', 'action' => 'resetpasswd']);?>" data-toggle="dialog" data-id="changepwd_page" data-mask="true" data-width="600" data-height="300">&nbsp;<span class="glyphicon glyphicon-lock"></span> 修改密码&nbsp;</a></li>
-                                <li><a href="<?php echo $this->Url->build(['plugin' => $this->request->params['plugin'], 'controller' => 'Users', 'action' => 'myinfo']);?>">&nbsp;<span class="glyphicon glyphicon-user"></span> 我的资料</a></li>
+                                <li><a href="<?php echo $this->Url->build(['plugin' => $this->request->params['plugin'], 'controller' => 'Users', 'action' => 'myinfo']);?>" data-toggle="dialog" data-mask="true" data-width="600" data-height="300">&nbsp;<span class="glyphicon glyphicon-user"></span> 我的资料</a></li>
                                 <li class="divider"></li>
                                 <li><a href="<?php echo $this->Url->build(['plugin' => $this->request->params['plugin'], 'controller' => 'Users', 'action' => 'logout']);?>" class="red">&nbsp;<span class="glyphicon glyphicon-off"></span> 注销登录</a></li>
                             </ul>
